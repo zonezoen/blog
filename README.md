@@ -1,0 +1,2 @@
+# blog
+record my blog
