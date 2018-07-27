@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502f1424-8263-4b08-94ed-dfe7bf43d06e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aboutMe/写作初衷.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aboutMe/搭建写作环境.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,8 +17,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>head</find>
+      <find>hea</find>
+      <find>he</find>
+      <find>h</find>
+      <find>=</find>
+      <find>==</find>
+      <find>===</find>
+      <find>====</find>
+      <find>======</find>
+      <find>=====</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +50,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/aboutMe/搭建写作环境.md" />
         <option value="$PROJECT_DIR$/aboutMe/写作初衷.md" />
-        <option value="$PROJECT_DIR$/../../docker-compose/docker-compose.yaml" />
       </list>
     </option>
   </component>
@@ -40,16 +60,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="58" />
-    <option name="width" value="1251" />
-    <option name="height" value="628" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -63,24 +82,105 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="aboutMe" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="kubernetes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="img">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="effective_tool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="docker">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="aboutMe">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,6 +238,15 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -158,14 +267,6 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -185,8 +286,7 @@
       <workItem from="1531566140730" duration="336000" />
       <workItem from="1531816341690" duration="2485000" />
       <workItem from="1531819681064" duration="18000" />
-      <workItem from="1531877539563" duration="223000" />
-      <workItem from="1532653239427" duration="388000" />
+      <workItem from="1532567769156" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="添加二维码图片">
       <created>1531562944753</created>
@@ -220,15 +320,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5380000" />
+    <option name="totallyTimeSpent" value="4985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="58" width="1251" height="628" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14308943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1430585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -240,12 +340,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -255,7 +355,8 @@
     <MESSAGE value="添加公众号描述" />
     <MESSAGE value="添加关于我" />
     <MESSAGE value="修改 写作初衷.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 写作初衷.md" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/zonezoen/blog&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/zonezoen/blog&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -345,6 +446,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -362,15 +464,17 @@
             <caret line="2" column="110" lean-forward="false" selection-start-line="2" selection-start-column="110" selection-end-line="2" selection-end-column="110" />
             <caret line="2" column="69" lean-forward="false" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
             <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docker-compose/docker-compose.yaml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
