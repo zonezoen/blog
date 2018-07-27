@@ -318,13 +318,28 @@ echo `date +"%Y年%m月%d日 %H:%M:%S"` $Next Bakup succ! >> $LogFile
 
 
 ## 定时备份
+
+输入如下命令，进入定时任务编辑界面：
+
+```shell
+crontab -e
+```
+
+添加如下命令，其意思为：每分钟执行一次备份脚本，crontab 的具体规则就另外写文了，与本文主题不太相关。
+
+```
+* * * * * sh /usr/your/path/mysqlbackup.sh
+```
+
+
+
 ## Docker 中的实现
 
-在 Docker 中实现，其实也是差多的，我就不在将上面的步骤重新赘述一遍了，只是将我遇到的问题写进来。
+在 Docker 中实现，其实也是差多的，我就不在将上面的步骤重新赘述一遍了，我就直接将我在 Docker 中遇到的坑展示给大家吧。
 
 ### 安装 vim
 
-我使用的是 MySQL 的官方镜像，我就直接将我在 Docker 中遇到的坑展示给大家吧。Docker - MySQL 镜像中使用的事 Debian 系统，其版本比较老旧是，没有佩带 vim 的。首先我们要执行以下代码来安装 vim ：
+我使用的是 MySQL 的官方镜像，Docker - MySQL 镜像中使用的事 Debian 系统，其版本比较老旧是，没有佩带 vim 的。首先我们要执行以下代码来安装 vim ：
 
 ```shell
 apt-get update
@@ -345,4 +360,22 @@ apt-get install vim
 ```
 
 也可以通过进入容器来修改时区，这个就看个人选择了，具体修改方法博客地址里面：http://coolnull.com/235.html
+
+###  定时备份
+
+在容器中如何实现定时备份呢？有人会说，使用 crontab 呀？如果你是这么想的，那么很遗憾，在 Docker - MySQL 的官方镜像中是没有 crontab 的。有人又说，那我们装一个 crontab不就行了吗？但是 Docker 鼓励“一个容器一个进程(one process per container)”的方式。于是在查找资料无果之后，我转念一想，将定时任务分配到我们的宿主机不就行了？让宿主机定时往容器里面传递命令，就达到我们的目的了。
+
+输入如下命令，进入定时任务编辑界面：
+
+```shell
+crontab -e
+```
+
+添加如下命令，其内容为：每分钟执行一次备份脚本
+
+```shell
+* * * * * docker exec ${docker_name} /bin/sh /usr/your/path/mysqlbackup.sh
+```
+
+
 
