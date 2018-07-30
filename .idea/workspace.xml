@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502f1424-8263-4b08-94ed-dfe7bf43d06e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/aboutMe/写作初衷.md" afterPath="$PROJECT_DIR$/aboutMe/写作初衷.md" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,12 +29,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="写作初衷.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="写作初衷.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aboutMe/写作初衷.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -42,12 +42,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -82,10 +82,10 @@
       <list>
         <option value="$PROJECT_DIR$/docker/gitlab-docker.md" />
         <option value="$PROJECT_DIR$/docker/gitlab-docker2.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/aboutMe/搭建写作环境.md" />
         <option value="$PROJECT_DIR$/aboutMe/写作初衷.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -229,7 +229,7 @@
       <workItem from="1532567769156" duration="216000" />
       <workItem from="1532653780550" duration="2434000" />
       <workItem from="1532763185029" duration="1452000" />
-      <workItem from="1532952148302" duration="1014000" />
+      <workItem from="1532952148302" duration="1025000" />
     </task>
     <task id="LOCAL-00001" summary="添加二维码图片">
       <created>1531562944753</created>
@@ -270,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9885000" />
+    <option name="totallyTimeSpent" value="9896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1702" y="205" width="1440" height="873" extended-state="0" />
@@ -447,8 +447,8 @@
     <entry file="file://$PROJECT_DIR$/aboutMe/写作初衷.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -458,8 +458,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
