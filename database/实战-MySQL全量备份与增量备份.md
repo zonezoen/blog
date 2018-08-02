@@ -380,4 +380,4 @@ crontab -e
 ```
 
 
-
+![zone7](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
