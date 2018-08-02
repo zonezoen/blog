@@ -13,7 +13,7 @@
 GitHub 地址：
 
 ```
-http://a.com
+https://github.com/zonezoen/MySQL_backup
 ```
 
 
@@ -36,6 +36,7 @@ http://a.com
 
 ```shell
 #!/bin/bash
+#在使用之前，请提前创建以下各个目录
 #获取当前时间
 date_now=$(date "+%Y%m%d-%H%M%S")
 backUpFolder=/home/db/backup/mysql
@@ -50,7 +51,7 @@ echo "starting backup mysql ${db_name} at ${date_now}."
 /usr/bin/mysqldump -u${username} -p${password}  --lock-all-tables --flush-logs ${db_name} > ${backUpFileName}
 #进入到备份文件目录
 cd ${backUpFolder}
-#压缩别分文件
+#压缩备份文件
 tar zcvf ${fileName}.tar.gz ${fileName}
 
 # use nodejs to upload backup file other place
@@ -273,15 +274,16 @@ OK，整一个增量备份的操作流程都在这里了，那么我们如何将
 
 ```shell
 #!/bin/bash
+#在使用之前，请提前创建以下各个目录
 BakDir=/usr/local/work/backup/daily
-#//增量备份时复制mysql-bin.00000*的目标目录，提前手动创建这个目录
+#增量备份时复制mysql-bin.00000*的目标目录，提前手动创建这个目录
 BinDir=/var/lib/mysql
-#//mysql的数据目录
+#mysql的数据目录
 LogFile=/usr/local/work/backup/bak.log
 BinFile=/var/lib/mysql/mysql-bin.index
-#//mysql的index文件路径，放在数据目录下的
+#mysql的index文件路径，放在数据目录下的
 
-mysqladmin -uroot -p123qweasd! flush-logs
+mysqladmin -uroot -p123456 flush-logs
 #这个是用于产生新的mysql-bin.00000*文件
 # wc -l 统计行数
 # awk 简单来说awk就是把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分再进行各种分析处理。
@@ -378,4 +380,4 @@ crontab -e
 ```
 
 
-
+![zone7](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
