@@ -42,25 +42,42 @@ echo "Mongo users created."
 ```
 那么在这里解释一下创建的过程：
 
- 1. 创建一个 admin 数据库的用户：admin ，密码：zonePassWord ，role：userAdminAnyDatabase
- 2. 创建一个 zonedb 数据库的用户：zone ，密码：zonePass ，role：readWrite
+ 1. 创建一个 admin 数据库，其参数为：
+
+    - 用户：admin
+
+    - 密码：zonePassWord
+
+    - role：userAdminAnyDatabase
+
+ 2. 创建一个 zonedb 数据库，其参数为：
+
+    - 用户：zone 
+
+    - 密码：zonePass 
+
+    - role：readWrite
 
 ## MongoDB 数据集保存至 host 主机 ##
 在介绍这个前，得说一下 -v 和 volume，以下这段文字是引用自 [Build Node.Js web server in Docker containers: nodejs+pm2+mongodb+redis](http://blog.csdn.net/dongshaoshuai/article/details/51967133)这篇文章。
 
-> Data volumes 有如下特性：
-> 
-> 当容器被创建时 volumes 会被初始化 Data volumes 可以在容器间共享复用 对 data volume 的修改直接生效
-> 更新镜像时， 原来 data volume 的修改不会被影响 即使容器被删除， 对应的 data volumes 依然会存在 使用
-> Volume 可以将容器与容器产生的数据分离，容器产生的数据可以持久化。
-> 
-> Docker volumes 使用 -v 指定和 在 Dockerfile 指定 VOLUME 的区别：
-> 
-> -v /data/logs:/data/logs: 将宿主机的 /data/logs 目录挂载到容器的 /data/logs 目录(如果目录不存在会被创建)， 宿主机和容器共享该目录，二者对该目录下的修改相互受影响。 Dockerfile 指定 VOLUME
-> /data/logs: 在宿主机创建一个目录(默认是 /var/lib/docker/volumes/)并挂载到容器的 /data/logs
-> 目录(如果目录不存在会被创建), 宿主机和容> 器共享该目录，二者对该目录下的修改相互受影响。
-> -v /data/logs: 同上， 在宿主机创建一个目录(默认是 /var/lib/docker/volumes/)并挂载到容器的 /data/logs 目录(如果目录不存在会被创建), 宿主机和容器共享该目录，二者对该目录下的修改相互受影响。 Docker
-> volumes 默认是 read-write 模式，也可以设置为 read-only 模式。
+**Data volumes 有如下特性：**
+
+> 当容器被创建时 volumes 会被初始化 Data volumes 可以在容器间共享复用 对 data volume 的修改直接生效 更新镜像时，原来 data volume 的修改不会被影响 即使容器被删除， 对应的 data volumes 依然会存在 使用 Volume 可以将容器与容器产生的数据分离，容器产生的数据可以持久化。
+
+**Docker volumes 使用 -v 指定和 在 Dockerfile 指定 VOLUME 的区别：**
+
+> **-v /data/logs:/data/logs**
+>
+> 将宿主机的 /data/logs 目录挂载到容器的 /data/logs 目录(如果目录不存在会被创建)， 宿主机和容器共享该目录，二者对该目录下的修改相互受影响。 
+>
+> **Dockerfile 指定 VOLUME /data/logs**
+>
+>  在宿主机创建一个目录(默认是 /var/lib/docker/volumes/)并挂载到容器的 /data/logs 目录(如果目录不存在会被创建), 宿主机和容 器共享该目录，二者对该目录下的修改相互受影响。 
+>
+> **-v /data/logs**
+>
+> 同上， 在宿主机创建一个目录(默认是 /var/lib/docker/volumes/)并挂载到容器的 /data/logs 目录(如果目录不存在会被创建), 宿主机和容器共享该目录，二者对该目录下的修改相互受影响。 Docker volumes 默认是 read-write 模式，也可以设置为 read-only 模式。
 
 
 ## 第三方授权认证 MongoDB 镜像 ##
@@ -97,7 +114,6 @@ environment 选项分别表示：
 ](https://stackoverflow.com/questions/34559557/how-to-enable-authentication-on-mongodb-through-docker/45297517#45297517)
 [Build Node.Js web server in Docker containers: nodejs+pm2+mongodb+redis](http://blog.csdn.net/dongshaoshuai/article/details/51967133)
 []()
-
 
 ---
 
