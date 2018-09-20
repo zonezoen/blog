@@ -24,8 +24,12 @@
 - Go 语言
 - 图像识别
 
+<<<<<<< HEAD
 独领风骚啊！！！平均工资都挺高的。区块链炒得挺火的，好像平均薪资并没有那么高。我统计完之后，感觉自己拖后腿了，
 ma 的！！！要删库跑路了！
+=======
+独领风骚啊！！！平均工资都挺高的。区块链炒得挺火的，好像平均薪资并没有那么高。我统计完之后，感觉自己拖后腿了，ma 的！！！要删库跑路了！
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 
 ![各语言平均薪资](https://upload-images.jianshu.io/upload_images/2470773-832c64d1d3dba4d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -46,78 +50,129 @@ ma 的！！！要删库跑路了！
 **各语言工作年限要求与学历要求**
 看看你的本命语言的市场需求怎么样？你达标了吗？其中三至五年的攻城狮职位挺多的，不怕找不到工作。还有一个趋势是，薪资越高，学历要求越高高。看来学历还是挺重要的。
 #### Java
+<<<<<<< HEAD
 Java 作为一门老牌编程语言，有些要求还是挺高的。为数不多的，有要求 5 - 10 年的。从总体来看，基本与学历没有太大的关联，只要技术到家就行。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![Java 工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-ab67d7f47cd02f4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![Java 学历要求](https://upload-images.jianshu.io/upload_images/2470773-6b9675627ee208af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### Python
+<<<<<<< HEAD
 Python 作为近年来被追捧的语言，主要是其发展方向众多，AI 、web 后端、运维、爬虫等。其入门要求也不是特别高，基本上本科学历就能胜任多数工作，AI 就要另当别论了。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![Python 工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-14c5d4b68fb04657.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![Python 学历要求](https://upload-images.jianshu.io/upload_images/2470773-30f7bbaaf255b98a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### C 语言
+<<<<<<< HEAD
 C 语言，也作为一门老牌编程语言。嗯，怎么感觉新一届的程序员越来越少学 C 语言了呢？
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![C 语言工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-62dcedb8a736bc6c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![C 语言学历要求](https://upload-images.jianshu.io/upload_images/2470773-ff6441c89e8ab2bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### 机器学习
+<<<<<<< HEAD
 是的，这一次感受到了学历的重要性了，硕士要求占了一大半呢！！我这个渣渣二本是入不了这行了。但工作年限要求没有非常高。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![机器学习工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-15bad75430bc51f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![机器学习学历要求](https://upload-images.jianshu.io/upload_images/2470773-e780590411aec2a7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 图像识别
+<<<<<<< HEAD
 图像识别薪资也高，学历要求也相对高一点。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![图像识别工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-7beba289bbfbd4b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![图像识别学历要求](https://upload-images.jianshu.io/upload_images/2470773-dfb27a1c5eb51ff4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 自然语言
+<<<<<<< HEAD
 果然，稀缺人才薪资都高，但这次它还是伴有学历门槛的，所以说要时刻都抱着学习的心态呀。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![自然语言工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-39f07d1a58d0b25a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![自然语言学历要求](https://upload-images.jianshu.io/upload_images/2470773-67eb0025e475c6b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### 区块链
+<<<<<<< HEAD
 区块链概念刚火爆的时候，感觉大街小巷都在讨论区块链啊？公众号随处都能看到区块链的字眼，随着一些区块链的暴雷，这概念好像有稍微平静下来的感觉。不过从薪资来看，好像也没有非常高。但是为学历还是有点要求的。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![区块链工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-34414623efddd56c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![区块链学历要求](https://upload-images.jianshu.io/upload_images/2470773-3af651fdb2c04b58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### Go 语言
+<<<<<<< HEAD
 Go 语言的需求量还是挺大的，为学历号位有那么点要求。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![Go 语言工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-41ac1af479e4e997.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![Go](https://upload-images.jianshu.io/upload_images/2470773-9493457fd5a5d605.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### PHP
+<<<<<<< HEAD
 PHP 是世界上最好的编程语言，不解释！！！
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![PHP 工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-19bb06e2aade370b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![PHP 学历要求](https://upload-images.jianshu.io/upload_images/2470773-4d2413df2f8b7463.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### Android
+<<<<<<< HEAD
 这两年 Android 趋于饱和，在加上小程序与 H5 的冲击，稍微平稳下来了。不过在视频、音频处理方面厉害的话，还是很吃香的。对学历基本没什么要求。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![Android 工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-2e7d3ca135374c30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![Android 学历要求](https://upload-images.jianshu.io/upload_images/2470773-dfe1108400863851.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### iOS
+<<<<<<< HEAD
 同 Android 类似，不过比 Android 先饱和了。学历方面，基本没什么要求。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![iOS 工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-f2637e15eeb9e6de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![iOS 学历要求](https://upload-images.jianshu.io/upload_images/2470773-dd818e36ee5937cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### web 前端
+<<<<<<< HEAD
 web 前端平均工资，比我预期的少了。看来会数据分析还是有好处的，其职位基本本科就能胜任。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![web 前端工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-7b0bab44b5477c3f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![web 前端学历要求](https://upload-images.jianshu.io/upload_images/2470773-e90b7d762143bc58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### 精准推荐
+<<<<<<< HEAD
 精准推荐薪资贼高啊，可能是和推荐商品有关，商品推荐出去了，买到钱了，你说薪资能不高吗？但是，这行业对学历还是有一定要求的。
+=======
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 ![精准推荐工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-7b1ea9385c4841c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![精准推荐学历要求](https://upload-images.jianshu.io/upload_images/2470773-3a65ba2eb18fb413.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
+<<<<<<< HEAD
+=======
+#### Node.js
+![Node.js 工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-c1738219ecbfbf52.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Node.js 学历要求](https://upload-images.jianshu.io/upload_images/2470773-ee72ffaddc04fcc3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+#### Hadoop
+![Hadoop 工作年限要求](https://upload-images.jianshu.io/upload_images/2470773-352f68e18fe60180.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Hadoop 学历要求](https://upload-images.jianshu.io/upload_images/2470773-5a62b8260236a035.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+>>>>>>> f9717758343bc2a2d35317701fd372ac9c8b6af5
 
 ## 爬虫技术分析
 - 请求库：selenium
