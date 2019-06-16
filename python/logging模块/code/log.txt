@@ -1,0 +1,2 @@
+2019-06-16 15:40:12,446 - __main__ - INFO - Log level info
+2019-06-16 15:40:12,446 - __main__ - WARNING - Log level warning
