@@ -1,0 +1,105 @@
+2019-06-16 17:47:22,918 - root - INFO - start func
+2019-06-16 17:47:22,920 - root - INFO - exec func
+2019-06-16 17:47:22,921 - root - INFO - end func
+2019-06-17 23:49:57,838 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-17 23:49:57,841 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-17 23:49:57,841 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-17 23:49:57,843 - __main__ - INFO - calling subModule.some_function
+2019-06-17 23:49:57,843 - __main__ - INFO - done with subModule.some_function
+2019-06-18 00:28:06,332 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-18 00:28:06,341 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-18 00:28:06,343 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-18 00:28:06,344 - __main__ - INFO - calling subModule.some_function
+2019-06-18 00:28:06,344 - __main__ - INFO - done with subModule.some_function
+2019-06-18 00:28:23,900 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-18 00:28:23,903 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-18 00:28:23,903 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-18 00:28:23,904 - __main__ - INFO - calling subModule.some_function
+2019-06-18 00:28:23,904 - __main__ - INFO - done with subModule.some_function
+2019-06-18 00:31:21,579 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-18 00:31:21,582 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-18 00:31:21,582 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-18 00:31:21,583 - __main__ - INFO - calling subModule.some_function
+2019-06-18 00:31:21,583 - __main__ - INFO - done with subModule.some_function
+2019-06-18 00:31:41,979 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-18 00:31:41,980 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-18 00:31:41,980 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-18 00:31:41,981 - __main__ - INFO - calling subModule.some_function
+2019-06-18 00:31:41,981 - __main__ - INFO - done with subModule.some_function
+2019-06-18 00:32:50,592 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-18 00:32:50,596 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-18 00:32:50,597 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-18 00:32:50,598 - __main__ - INFO - calling subModule.some_function
+2019-06-18 00:32:50,599 - __main__ - INFO - done with subModule.some_function
+2019-06-23 00:26:56,084 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:26:56,087 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:26:56,088 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:26:56,088 - __main__ - INFO - calling subModule.some_function
+2019-06-23 00:26:56,089 - __main__ - INFO - done with subModule.some_function
+2019-06-23 00:30:44,188 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:31:05,447 - __main__ - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:31:05,447 - __main__ - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:31:05,447 - __main__ - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:31:05,448 - __main__ - INFO - calling subModule.some_function
+2019-06-23 00:31:05,448 - __main__ - INFO - done with subModule.some_function
+2019-06-23 00:33:48,055 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:33:48,056 - mainModule.sub.module - INFO - creating an instance in SubModuleClass
+2019-06-23 00:33:48,056 - mainModule - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:33:48,056 - mainModule.sub.module - INFO - do something in SubModule
+2019-06-23 00:33:48,056 - mainModule.sub.module - INFO - finish something in SubModuleClass
+2019-06-23 00:33:48,056 - mainModule - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:33:48,056 - mainModule - INFO - calling subModule.some_function
+2019-06-23 00:33:48,057 - mainModule.sub.module - INFO - call function some_function
+2019-06-23 00:33:48,057 - mainModule - INFO - done with subModule.some_function
+2019-06-23 00:34:14,082 - main - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:34:14,084 - main - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:34:14,084 - main - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:34:14,084 - main - INFO - calling subModule.some_function
+2019-06-23 00:34:14,084 - main.sub.module - INFO - call function some_function
+2019-06-23 00:34:14,085 - main - INFO - done with subModule.some_function
+2019-06-23 00:34:42,392 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:34:42,395 - mainModule.sub.module - INFO - creating an instance in SubModuleClass
+2019-06-23 00:34:42,396 - mainModule - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:34:42,396 - mainModule.sub.module - INFO - do something in SubModule
+2019-06-23 00:34:42,396 - mainModule.sub.module - INFO - finish something in SubModuleClass
+2019-06-23 00:34:42,396 - mainModule - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:34:42,396 - mainModule - INFO - calling subModule.some_function
+2019-06-23 00:34:42,396 - mainModule.sub.module - INFO - call function some_function
+2019-06-23 00:34:42,396 - mainModule - INFO - done with subModule.some_function
+2019-06-23 00:36:33,513 - testMain - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:36:33,515 - testMain - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:36:33,515 - testMain - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:36:33,515 - testMain - INFO - calling subModule.some_function
+2019-06-23 00:36:33,515 - testMain.sub.module - INFO - call function some_function
+2019-06-23 00:36:33,515 - testMain - INFO - done with subModule.some_function
+2019-06-23 00:37:22,588 - testMain - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:37:22,589 - testMain.sub.module - INFO - creating an instance in SubModuleClass
+2019-06-23 00:37:22,589 - testMain - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:37:22,589 - testMain.sub.module - INFO - do something in SubModule
+2019-06-23 00:37:22,589 - testMain.sub.module - INFO - finish something in SubModuleClass
+2019-06-23 00:37:22,589 - testMain - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:37:22,589 - testMain - INFO - calling subModule.some_function
+2019-06-23 00:37:22,590 - testMain.sub.module - INFO - call function some_function
+2019-06-23 00:37:22,590 - testMain - INFO - done with subModule.some_function
+2019-06-23 00:42:46,335 - testMain - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:42:46,337 - testMain.sub.module - INFO - creating an instance in SubModuleClass
+2019-06-23 00:42:46,337 - testMain - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:42:46,337 - testMain.sub.module - INFO - do something in SubModule
+2019-06-23 00:42:46,338 - testMain.sub.module - INFO - finish something in SubModuleClass
+2019-06-23 00:42:46,338 - testMain - INFO - done with  subModule.subModuleClass.doSomething
+2019-06-23 00:42:46,338 - testMain - INFO - calling subModule.some_function
+2019-06-23 00:42:46,338 - testMain.sub.module - INFO - call function some_function
+2019-06-23 00:42:46,338 - testMain - INFO - done with subModule.some_function
+2019-06-23 00:53:14,021 - zone7Model - INFO - creating an instance of subModule.subModuleClass
+2019-06-23 00:53:14,022 - zone7Model.sub.module - INFO - init sub class
+2019-06-23 00:53:14,022 - zone7Model - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:53:14,022 - zone7Model.sub.module - INFO - sub class log is printed
+2019-06-23 00:55:09,543 - zone7Model.sub.module - INFO - init sub class
+2019-06-23 00:55:09,543 - zone7Model - INFO - calling subModule.subModuleClass.doSomething
+2019-06-23 00:55:09,544 - zone7Model.sub.module - INFO - sub class log is printed
+2019-06-23 00:55:27,803 - zone7Model.sub.module - INFO - init sub class
+2019-06-23 00:55:27,803 - zone7Model - INFO - main log
+2019-06-23 00:55:27,804 - zone7Model.sub.module - INFO - sub class log is printed
+2019-06-23 00:55:43,245 - zone7Model.sub.module - INFO - init sub class
+2019-06-23 00:55:43,252 - zone7Model - INFO - main module log
+2019-06-23 00:55:43,253 - zone7Model.sub.module - INFO - sub class log is printed

@@ -12,9 +12,9 @@ import sys
 import logging
 
 sys.path.append(os.getcwd())
-import subModule
+from python.logging_model.code import sub_of_main
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("zone7Model")
 logger.setLevel(level=logging.INFO)
 handler = logging.FileHandler("log.txt")
 handler.setLevel(logging.INFO)
@@ -28,11 +28,9 @@ console.setFormatter(formatter)
 logger.addHandler(handler)
 logger.addHandler(console)
 
-logger.info("creating an instance of subModule.subModuleClass")
-a = subModule.SubModuleClass()
-logger.info("calling subModule.subModuleClass.doSomething")
-a.doSomething()
-logger.info("done with  subModule.subModuleClass.doSomething")
-logger.info("calling subModule.some_function")
-subModule.som_function()
-logger.info("done with subModule.some_function")
+sub = sub_of_main.SubOfMain()
+logger.info("main module log")
+sub.print_some_log()
+
+
+
