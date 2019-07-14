@@ -8,10 +8,8 @@ __date__ = '2019/6/17 下午11:46'
 import os
 
 print(os.getcwd())
-import sys
 import logging
 
-sys.path.append(os.getcwd())
 from python.logging_model.code import sub_of_main
 
 logger = logging.getLogger("zone7Model")

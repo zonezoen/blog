@@ -103,3 +103,6 @@
 2019-06-23 00:55:43,245 - zone7Model.sub.module - INFO - init sub class
 2019-06-23 00:55:43,252 - zone7Model - INFO - main module log
 2019-06-23 00:55:43,253 - zone7Model.sub.module - INFO - sub class log is printed
+2019-06-23 01:27:09,782 - zone7Model.sub.module - INFO - init sub class
+2019-06-23 01:27:09,792 - zone7Model - INFO - main module log
+2019-06-23 01:27:09,792 - zone7Model.sub.module - INFO - sub class log is printed
